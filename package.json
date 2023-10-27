@@ -1,0 +1,38 @@
+{
+  "name": "authentication",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run build && node ./dist/bin/www.js",
+    "dev": "nodemon ./bin/www.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.19",
+    "@types/node": "^20.8.6",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "~1.4.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.6",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/cookie-parser": "^1.4.4",
+    "@types/ejs": "^3.1.4",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/morgan": "^1.9.6",
+    "@types/mysql": "^2.15.23",
+    "@types/nodemailer": "^6.4.12",
+    "ts-node-dev": "^2.0.0"
+  }
+}
